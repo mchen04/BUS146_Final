@@ -2,6 +2,8 @@
 
 > BUS146 Final Project — Viable Venture
 
+**Live demo: https://homeplate-prototype.vercel.app**
+
 A clickable prototype for **HomePlate**, an "Etsy for Homemade Food" peer-to-peer marketplace connecting local home cooks with nearby customers who want fresh, authentic, home-cooked meals.
 
 ## Brand Direction

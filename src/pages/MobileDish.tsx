@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Phone from '../components/Phone';
+import TabBar from '../components/TabBar';
 import Chip from '../components/Chip';
 import Button from '../components/Button';
 import { ArrowIcon, HeartIcon, StarIcon, ShieldIcon, BagIcon } from '../components/Icons';
@@ -99,6 +100,8 @@ function DishContent() {
           <Button primary full size="md" icon={<BagIcon size={13} />}>Add to order</Button>
         </div>
       </div>
+
+      <TabBar active="home" />
     </>
   );
 }

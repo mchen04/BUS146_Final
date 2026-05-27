@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react';
+import { Link } from 'react-router-dom';
 import Phone from '../components/Phone';
 import TabBar from '../components/TabBar';
 import { HeartIcon, StarIcon, PinIcon, ShieldIcon } from '../components/Icons';
@@ -72,25 +73,26 @@ function ProfileContent() {
 
         {/* Menu items */}
         {AMARA_MENU.map((m, i) => (
-          <div
-            key={m.name}
-            className={`flex items-center gap-2.5 py-2 ${i < AMARA_MENU.length - 1 ? 'border-b border-line' : ''}`}
-          >
-            <img
-              src={amara.photo}
-              alt={m.name}
-              className="w-12 h-12 object-cover shrink-0 rounded-sm"
-            />
-            <div className="flex-1 min-w-0">
-              <div className="text-[13px] font-medium">{m.name}</div>
-              <div className="text-[10px] text-muted mt-0.5">
-                {m.day} · {m.left} left
+          <Link key={m.name} to="/mobile/dish" className="no-underline text-ink block">
+            <div
+              className={`flex items-center gap-2.5 py-2 ${i < AMARA_MENU.length - 1 ? 'border-b border-line' : ''}`}
+            >
+              <img
+                src={amara.photo}
+                alt={m.name}
+                className="w-12 h-12 object-cover shrink-0 rounded-sm"
+              />
+              <div className="flex-1 min-w-0">
+                <div className="text-[13px] font-medium">{m.name}</div>
+                <div className="text-[10px] text-muted mt-0.5">
+                  {m.day} · {m.left} left
+                </div>
+              </div>
+              <div className="text-right">
+                <div className="font-serif text-[15px] font-medium">${m.price}</div>
               </div>
             </div>
-            <div className="text-right">
-              <div className="font-serif text-[15px] font-medium">${m.price}</div>
-            </div>
-          </div>
+          </Link>
         ))}
       </div>
 

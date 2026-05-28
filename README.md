@@ -1,4 +1,4 @@
-# HomePlate — "Hearth" Prototype
+# HomePlate Prototype
 
 > BUS146 Final Project — Viable Venture
 
@@ -8,7 +8,7 @@ A clickable prototype for **HomePlate**, an "Etsy for Homemade Food" peer-to-pee
 
 ## Brand Direction
 
-**Hearth** — modern farmhouse editorial with farmers-market energy.
+**HomePlate** — modern farmhouse editorial with farmers-market energy.
 
 - Palette: warm cream (`#FBF4E4`), terracotta accent (`#B8431A`), forest green (`#3A5A3E`)
 - Typography: Newsreader (serif headlines) + DM Sans (body) + JetBrains Mono (labels)

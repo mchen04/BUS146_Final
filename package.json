@@ -2,7 +2,7 @@
   "name": "homeplate-prototype",
   "private": true,
   "version": "1.0.0",
-  "description": "HomePlate — Hearth brand prototype for BUS146 final pitch. An Etsy-for-homemade-food marketplace UI.",
+  "description": "HomePlate — brand prototype for BUS146 final pitch. An Etsy-for-homemade-food marketplace UI.",
   "type": "module",
   "scripts": {
     "dev": "vite",

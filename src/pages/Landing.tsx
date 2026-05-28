@@ -18,7 +18,7 @@ function Nav() {
       <div className="flex items-center gap-6 lg:gap-10">
         <a href="#" onClick={e => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="no-underline">
           <span className="font-serif text-[22px] lg:text-[26px] font-medium text-ink" style={{ letterSpacing: '-0.01em' }}>
-            Hearth
+            HomePlate
           </span>
         </a>
         <div className="hidden md:flex gap-7 text-[13px] font-sans">
@@ -58,7 +58,7 @@ function Hero() {
             <span className="italic text-accent">from your block.</span>
           </h1>
           <p className="text-base mt-5 max-w-[480px] text-muted" style={{ lineHeight: 1.55 }}>
-            Hearth is a marketplace for buying & selling honest home cooking — the kind of meal you'd make if you actually had the time tonight.
+            HomePlate is a marketplace for buying & selling honest home cooking — the kind of meal you'd make if you actually had the time tonight.
           </p>
           <div className="flex gap-3 mt-6">
             <Button primary size="lg" onClick={() => navigate('/mobile/home')}>Browse tonight's menu</Button>
@@ -155,7 +155,7 @@ function FeaturedCooks() {
 function BecomeACook() {
   const perks = [
     { title: 'Set your own schedule', desc: 'Cook when you want. List meals for tonight, this week, or just weekends.' },
-    { title: 'Keep 92% of every sale', desc: 'Hearth takes an 8% platform fee — no hidden charges, no tipping pressure.' },
+    { title: 'Keep 92% of every sale', desc: 'HomePlate takes an 8% platform fee — no hidden charges, no tipping pressure.' },
     { title: 'We handle compliance', desc: 'We walk you through your state\'s cottage food or home kitchen permit process.' },
   ];
   return (
@@ -173,7 +173,7 @@ function BecomeACook() {
             You already cook for everyone — your family, your block party, your coworker who "just wants the recipe." Now get paid for it.
           </p>
           <div className="mt-6">
-            <Button primary size="lg">Apply to cook on Hearth</Button>
+            <Button primary size="lg">Apply to cook on HomePlate</Button>
           </div>
           <div className="flex gap-6 mt-8 text-xs text-muted">
             <div>
@@ -226,7 +226,7 @@ function TrustAndSafety() {
           <span className="italic text-accent">unregulated.</span>
         </h2>
         <p className="text-[15px] mt-4 max-w-[520px] mx-auto text-muted" style={{ lineHeight: 1.6 }}>
-          Every cook on Hearth is permitted, insured, and reviewed. We built the platform around the standards we'd want if we were ordering for our own families.
+          Every cook on HomePlate is permitted, insured, and reviewed. We built the platform around the standards we'd want if we were ordering for our own families.
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-[800px] mx-auto">
@@ -250,7 +250,7 @@ function Footer() {
   return (
     <footer className="px-6 py-8 lg:px-14 lg:py-10 text-center">
       <div className="font-serif text-[22px] font-medium mb-2" style={{ letterSpacing: '-0.01em' }}>
-        Hearth
+        HomePlate
       </div>
       <p className="text-xs text-muted">
         Home-cooked, from your block. · Oakland, CA · Est. 2025
